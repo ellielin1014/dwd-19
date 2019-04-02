@@ -1,0 +1,22 @@
+{
+  "name": "week-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellielin1014/dwd-19.git"
+  },
+  "author": "Ellie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellielin1014/dwd-19/issues"
+  },
+  "homepage": "https://github.com/ellielin1014/dwd-19#readme",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  }
+}
