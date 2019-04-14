@@ -1,7 +1,7 @@
 var express = require('express');
 var mustacheExpress = require('mustache-express');
 
-var insults = ["? This band sucks!", "? Gross", "? Ewww..."];
+var insults = ["? This band sucks!", "? Gross!", "? Ewww..."];
 var app = express();
 
 app.engine('html', mustacheExpress());
