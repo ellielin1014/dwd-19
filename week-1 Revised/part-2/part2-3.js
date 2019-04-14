@@ -18,4 +18,16 @@ fs.writeFileSync(OUTPUT, "<html><head></head><body><h1>" + lines[0] + "</h1><p>"
 // for (var i = 0; i < lines.legth; i++) {
 //   console.log("New file is created as art2-3_Dark_Matter.html");
 //   fs.writeFileSync(OUTPUT, "<html><head></head><body><h1>" + lines[i] + "</h1></body></html>");
+
+//fs.readFile(INPUT,function(error,dara){
+//   var html = ""<html><head></head> + data + "</h1></body></html>"
+//   fs.writeFile(OUTPUT, html,function(error2){
+//     console.log('line 27');
+//     if(error2){
+//       console.log(error2);
+//     }
+//   });
+// });
+//
+// console.log('line 34');
 // }

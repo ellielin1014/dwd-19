@@ -1,4 +1,4 @@
-'use strict';
+//'use strict';
 const open = require('open');
 
 for (let j = 0; j < process.argv.length; j++) {
