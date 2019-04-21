@@ -1,6 +1,6 @@
 var express = require('express');
 var mustacheExpress = require('mustache-express');
-
+var port = process.env.PORT || 8000;
 var insults = ["? This band sucks!", "? Gross", "? Ewww..."];
 var app = express();
 
@@ -23,6 +23,6 @@ app.get('/', function(req, res) {
 )
 
 
-app.listen(8000, function () {
+app.listen(port, function () {
   console.log('Listen to port 8000')
 })
