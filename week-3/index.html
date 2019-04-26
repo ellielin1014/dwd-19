@@ -1,0 +1,34 @@
+<html>
+
+<head></head>
+
+<body>
+  <h1> Welcome to ITP-Forum </h1>
+
+  <h2> Check our posts <br> </h2>
+
+  {{#post_message}}
+  <li> {{message}}<br> </li>
+  {{/post_message}}
+
+  <form method="POST" action="/post">
+
+    <div>
+      <label for='forum_message'> Leave your message here:<br></label>
+      <textarea type="text" name="forum_message"></textarea>
+    </div>
+
+    <div class='button'>
+      <button type='submit'> Submit </button>
+    </div>
+  </form>
+
+</body>
+
+</html>
+
+
+<!-- if there's a mseeageArray coming in, put the message into the list
+{{#messageArray}}
+  <li>{{message}}</li>
+{{/messageArray}} -->

@@ -1,0 +1,27 @@
+{
+  "name": "week-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node forum.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ellie",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mustache-express": "^1.2.8",
+    "pg": "^7.10.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellielin1014/dwd-19-heroku.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ellielin1014/dwd-19-heroku/issues"
+  },
+  "homepage": "https://github.com/ellielin1014/dwd-19-heroku#readme",
+  "description": ""
+}
